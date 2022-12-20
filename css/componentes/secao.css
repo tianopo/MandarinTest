@@ -1,0 +1,9 @@
+.secao{
+    width: auto;
+    height: 100px;
+    background: var(--laranja-claro);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

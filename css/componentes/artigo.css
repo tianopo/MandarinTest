@@ -1,0 +1,43 @@
+.conteudo{
+    width: auto;
+    height: 100%;
+    background: var(--cinza-claro);
+
+    margin-top: -4rem;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.conteudo--primeiro{
+    margin-top: -2rem;
+}
+
+.conteudo--segundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conteudo--texto{
+    display: flex;
+    flex-wrap: wrap;
+
+    font-weight: 700;
+    font-size: 22px;
+
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.conteudo--texto-titulo{
+    font-size: 30px;
+    line-height: 2rem;
+}
+
+.conteudo--texto-subtitulo{
+    font-size: 26px;
+    line-height: 2rem;
+}
+
+.conteudo section div:hover,footer a:hover{
+    cursor: pointer;
+}

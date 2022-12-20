@@ -1,0 +1,90 @@
+.galeria1{
+    width: auto;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.fotos1{
+    width: 500%;
+    animation-name: primeiroCarrossel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.fotos1 img{
+    width: 19.9%;
+    height: 500px;
+}
+
+@keyframes primeiroCarrossel{
+    0% { margin-left: 0;}
+    25% { margin-left: 0;}
+    33.3% { margin-left: -100%;}
+    60% { margin-left: -100%;}
+    66.6% { margin-left: -200%;}
+    95% { margin-left: -200%;}
+    100% { margin-left: -300%;}
+}
+
+.galeria2{
+    width: 49%;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.fotos2{
+    width: 500%;
+    animation-name: segundoCarrossel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.fotos2 img{
+    width: 19.8%;
+    height: 250px;
+}
+
+@keyframes segundoCarrossel{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    75% { margin-left: -300%;}
+    95% { margin-left: -300%;}
+    100% { margin-left: -400%;}
+}
+
+.galeria3{
+    width: 49%;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.fotos3{
+    width: 500%;
+    animation-name: terceiroCarrossel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.fotos3 img{
+    width: 19.8%;
+    height: 250px;
+}
+
+@keyframes terceiroCarrossel{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    75% { margin-left: -300%;}
+    95% { margin-left: -300%;}
+    100% { margin-left: -400%;}
+}

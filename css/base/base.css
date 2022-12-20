@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+body{
+    background-color: var(--cinza-claro);
+    width: 96.5%;
+    height: auto;
+
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header{
+    background-image: linear-gradient(to right,var(--laranja-escuro),var(--rosa-escuro));
+    color: white;
+}
